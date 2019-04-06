@@ -1,2 +1,2 @@
-# Arduino-UNO-VU-Meter-and-Patterns
+# Arduino-Nano-VU-Meter-and-Patterns
 video: https://www.youtube.com/watch?v=OavrHqIQ5Vc
