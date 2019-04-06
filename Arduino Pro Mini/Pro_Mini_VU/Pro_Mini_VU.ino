@@ -129,7 +129,7 @@ void setup() {
   pinMode(buttonPin, INPUT);
   digitalWrite(buttonPin, HIGH);
   
- analogReference(EXTERNAL);            //Uncomment this line if using Arduino Pro Mini
+  //analogReference(EXTERNAL);           //No needed on Arduino 3.3 volts
   memset(vol, 0, sizeof(vol));
   LEDS.addLeds<LED_TYPE, PIN, COLOR_ORDER>(leds, N_PIXELS);
   strip.begin();
